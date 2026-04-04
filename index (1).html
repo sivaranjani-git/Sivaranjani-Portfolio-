@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sivaranjani T — Java Full Stack Developer | Data Analyst</title>
+  <meta name="description" content="Entry-level Java Full Stack Developer & Data Analyst. Skilled in Spring Boot, MERN Stack, REST APIs, Python, Power BI. Open to MNC & startup opportunities."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Syne:wght@700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ===== NAVIGATION ===== -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-bracket">&lt;</span>ST<span class="logo-bracket">/&gt;</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Hire Me</a>
+      <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge reveal-fade">
+          <span class="badge-dot"></span>
+          Available for Full-Time Roles · Entry Level
+        </div>
+        <h1 class="hero-name reveal-up">
+          Sivaranjani<br/><span class="name-accent">Thambusamy</span>
+        </h1>
+        <div class="hero-roles reveal-up" style="--delay:0.15s">
+          <span class="role active" id="role-display">Java Full Stack Developer</span>
+        </div>
+        <p class="hero-desc reveal-up" style="--delay:0.25s">
+          Entry-level developer with hands-on experience building web applications using
+          <strong>Java, Spring Boot</strong> and the <strong>MERN Stack</strong>.
+          Skilled in REST APIs, responsive UIs, and data-driven dashboards.
+          Transitioning from healthcare operations with strong analytical foundations.
+        </p>
+        <div class="hero-actions reveal-up" style="--delay:0.35s">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-outline">Get In Touch</a>
+          <a href="resume.pdf" download class="btn-ghost">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4M7 10l5 5 5-5M12 15V3"/></svg>
+            Resume
+          </a>
+        </div>
+        <div class="hero-stats reveal-up" style="--delay:0.45s">
+          <div class="stat">
+            <span class="stat-num">2+</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">10K+</span>
+            <span class="stat-label">Records Analysed</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num">99%</span>
+            <span class="stat-label">Accuracy Rate (AR)</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal-fade" style="--delay:0.5s">
+        <div class="code-card">
+          <div class="code-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="code-file">Profile.java</span>
+          </div>
+          <div class="code-body">
+            <div class="code-line"><span class="kw">public class</span> <span class="cls">Developer</span> {</div>
+            <div class="code-line indent"><span class="kw">String</span> name = <span class="str">"Sivaranjani T"</span>;</div>
+            <div class="code-line indent"><span class="kw">String</span> role = <span class="str">"Full Stack Dev"</span>;</div>
+            <div class="code-line indent"><span class="kw">String[]</span> stack = {</div>
+            <div class="code-line indent2"><span class="str">"Java"</span>, <span class="str">"Spring Boot"</span>,</div>
+            <div class="code-line indent2"><span class="str">"React"</span>, <span class="str">"Node.js"</span>,</div>
+            <div class="code-line indent2"><span class="str">"MongoDB"</span>, <span class="str">"MySQL"</span></div>
+            <div class="code-line indent">};</div>
+            <div class="code-line indent"><span class="kw">boolean</span> openToWork = <span class="bool">true</span>;</div>
+            <div class="code-line indent"><span class="kw">void</span> <span class="fn">hire</span>() {</div>
+            <div class="code-line indent2"><span class="comment">// Best decision you'll make</span></div>
+            <div class="code-line indent">}</div>
+            <div class="code-line">}</div>
+          </div>
+        </div>
+        <div class="tech-pills">
+          <span class="pill">Spring Boot</span>
+          <span class="pill">React.js</span>
+          <span class="pill">Node.js</span>
+          <span class="pill">Python</span>
+          <span class="pill">Power BI</span>
+          <span class="pill">MongoDB</span>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint">
+      <span>Scroll</span>
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">01 · About</div>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal-up">
+          <p>I'm <strong>Sivaranjani</strong>, a driven career-switcher from healthcare operations into software development. My experience handling high-stakes data in revenue cycle management gave me a sharp eye for accuracy, process thinking, and analytical depth — skills I now channel into building real-world applications.</p>
+          <p>I completed a rigorous <strong>Java Full Stack Developer</strong> certification and a <strong>Data Science internship</strong>, equipping me with full-stack development skills spanning Java backends, RESTful APIs, and modern React frontends. I also bring data analytics capability using Python, Power BI, and Tableau.</p>
+          <p>I'm actively seeking entry-level roles as a <strong>Junior Java Full Stack Developer</strong>, <strong>Junior Software Engineer</strong>, or <strong>Junior Data Analyst</strong> — where I can learn fast and contribute meaningfully from day one.</p>
+          <div class="about-details">
+            <div class="detail-item">
+              <span class="detail-label">Location</span>
+              <span class="detail-val">Erode / Salem, Tamil Nadu</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Education</span>
+              <span class="detail-val">B.Sc. · Full Stack Certified</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Status</span>
+              <span class="detail-val open">Open to Work ✓</span>
+            </div>
+            <div class="detail-item">
+              <span class="detail-label">Work Mode</span>
+              <span class="detail-val">On-site / Remote / Hybrid</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-highlights reveal-up" style="--delay:0.15s">
+          <div class="highlight-card">
+            <div class="hl-icon">🚀</div>
+            <div class="hl-title">Fast Learner</div>
+            <div class="hl-desc">Completed full-stack certification and shipped two production-grade projects within one year.</div>
+          </div>
+          <div class="highlight-card">
+            <div class="hl-icon">🔁</div>
+            <div class="hl-title">Non-IT → IT Switcher</div>
+            <div class="hl-desc">3+ years of professional analytical & operational experience adds real-world problem-solving depth.</div>
+          </div>
+          <div class="highlight-card">
+            <div class="hl-icon">📊</div>
+            <div class="hl-title">Dual Expertise</div>
+            <div class="hl-desc">Comfortable in both development (Java/MERN) and analytics (Python, Power BI, Tableau).</div>
+          </div>
+          <div class="highlight-card">
+            <div class="hl-icon">🎯</div>
+            <div class="hl-title">Result-Oriented</div>
+            <div class="hl-desc">Maintained 99% accuracy in previous roles. Built a dashboard cutting report time by 30%.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">02 · Skills</div>
+        <h2 class="section-title">Technical Stack</h2>
+        <p class="section-sub">Technologies I work with across full-stack development and data analytics.</p>
+      </div>
+      <div class="skills-wrapper">
+        <div class="skill-category reveal-up">
+          <div class="skill-cat-header">
+            <span class="cat-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+            </span>
+            <span>Frontend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag primary">React.js</span>
+            <span class="skill-tag">JavaScript (ES6+)</span>
+            <span class="skill-tag">Bootstrap 5</span>
+            <span class="skill-tag">Responsive Design</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.1s">
+          <div class="skill-cat-header">
+            <span class="cat-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 20V10M12 20V4M6 20v-6"/></svg>
+            </span>
+            <span>Backend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag primary">Java</span>
+            <span class="skill-tag primary">Spring Boot</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Express.js</span>
+            <span class="skill-tag">REST API Design</span>
+            <span class="skill-tag">JWT Authentication</span>
+            <span class="skill-tag">MVC Architecture</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.2s">
+          <div class="skill-cat-header">
+            <span class="cat-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"/><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"/></svg>
+            </span>
+            <span>Database</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">Mongoose</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">SQL Queries</span>
+            <span class="skill-tag">Database Design</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.3s">
+          <div class="skill-cat-header">
+            <span class="cat-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+            </span>
+            <span>Data Analytics</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag accent">Python</span>
+            <span class="skill-tag accent">Pandas</span>
+            <span class="skill-tag accent">NumPy</span>
+            <span class="skill-tag accent">Scikit-learn</span>
+            <span class="skill-tag accent">Power BI</span>
+            <span class="skill-tag accent">Tableau</span>
+            <span class="skill-tag accent">Data Visualization</span>
+          </div>
+        </div>
+        <div class="skill-category reveal-up" style="--delay:0.4s">
+          <div class="skill-cat-header">
+            <span class="cat-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </span>
+            <span>Tools & DevOps</span>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">IntelliJ IDEA</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">Agile / Scrum</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">03 · Projects</div>
+        <h2 class="section-title">What I've Built</h2>
+        <p class="section-sub">End-to-end projects demonstrating full-stack development and data analytics skills.</p>
+      </div>
+      <div class="projects-grid">
+
+        <div class="project-card reveal-up featured">
+          <div class="project-top">
+            <div class="project-num">01</div>
+            <div class="project-links">
+              <a href="https://github.com/sivaranjani-git" target="_blank" class="icon-link" title="GitHub">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </a>
+            </div>
+          </div>
+          <div class="project-period">Jan – May 2024</div>
+          <h3 class="project-name">Music Streaming Application</h3>
+          <p class="project-desc">A full-stack music platform with user authentication, playlist management, and song browsing — built end-to-end using the MERN stack.</p>
+          <ul class="project-highlights">
+            <li>Implemented JWT-based authentication with secure login and session management.</li>
+            <li>Developed 10+ RESTful API endpoints using Node.js and Express.js.</li>
+            <li>Designed MongoDB schema with Mongoose for users, songs, and playlists.</li>
+            <li>Built fully responsive React.js UI with Bootstrap 5 components.</li>
+          </ul>
+          <div class="project-stack">
+            <span>React.js</span>
+            <span>Node.js</span>
+            <span>Express.js</span>
+            <span>MongoDB</span>
+            <span>JWT</span>
+            <span>Bootstrap 5</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up" style="--delay:0.15s">
+          <div class="project-top">
+            <div class="project-num">02</div>
+          </div>
+          <div class="project-period">Aug – Oct 2024</div>
+          <h3 class="project-name">Market Value Analysis Dashboard</h3>
+          <p class="project-desc">A data analytics pipeline and interactive BI dashboard to forecast market values and identify pricing trends from large datasets.</p>
+          <ul class="project-highlights">
+            <li>Cleaned and processed 10,000+ records using Pandas, cutting report prep time by 30%.</li>
+            <li>Built regression models with Scikit-learn achieving 85% forecast accuracy.</li>
+            <li>Designed interactive dashboards in Power BI and Tableau for stakeholder reporting.</li>
+          </ul>
+          <div class="project-stack">
+            <span>Python</span>
+            <span>Pandas</span>
+            <span>Scikit-learn</span>
+            <span>Power BI</span>
+            <span>Tableau</span>
+            <span>NumPy</span>
+          </div>
+        </div>
+
+        <div class="project-card reveal-up coming-soon" style="--delay:0.3s">
+          <div class="project-top">
+            <div class="project-num">03</div>
+            <div class="cs-badge">Coming Soon</div>
+          </div>
+          <div class="project-period">2025</div>
+          <h3 class="project-name">Spring Boot REST API Project</h3>
+          <p class="project-desc">An enterprise-grade backend application using Java Spring Boot, featuring RESTful APIs, MySQL integration, and layered MVC architecture.</p>
+          <div class="project-stack">
+            <span>Java</span>
+            <span>Spring Boot</span>
+            <span>MySQL</span>
+            <span>REST API</span>
+            <span>Maven</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section id="experience">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">04 · Experience</div>
+        <h2 class="section-title">Work History</h2>
+        <p class="section-sub">Professional background that shaped my analytical thinking and work ethic.</p>
+      </div>
+      <div class="timeline">
+
+        <div class="timeline-item reveal-up">
+          <div class="tl-left">
+            <div class="tl-period">May – Sep 2025</div>
+            <div class="tl-loc">Chennai, TN</div>
+          </div>
+          <div class="tl-line">
+            <div class="tl-dot active"></div>
+          </div>
+          <div class="tl-right">
+            <div class="tl-role">AR Executive</div>
+            <div class="tl-company">Global Healthcare Billing Partner Pvt. Ltd.</div>
+            <ul class="tl-points">
+              <li>Streamlined invoice collection workflows and denial management processes, improving team efficiency by 20%.</li>
+              <li>Resolved billing discrepancies through cross-functional coordination with clinical and finance teams.</li>
+              <li>Leveraged Excel and internal dashboards to track KPIs and generate weekly reports.</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Revenue Cycle</span><span>Data Accuracy</span><span>Process Improvement</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-up" style="--delay:0.1s">
+          <div class="tl-left">
+            <div class="tl-period">May 2024 – May 2025</div>
+            <div class="tl-loc">Remote</div>
+          </div>
+          <div class="tl-line">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-right">
+            <div class="tl-role">AR Specialist</div>
+            <div class="tl-company">Ventra Health</div>
+            <ul class="tl-points">
+              <li>Maintained <strong>99%+ accuracy</strong> across end-to-end revenue cycle management operations.</li>
+              <li>Proactively resolved client payment disputes, reducing outstanding balances by 25%.</li>
+              <li>Documented workflows and trained junior team members on standard operating procedures.</li>
+            </ul>
+            <div class="tl-tags">
+              <span>99% Accuracy</span><span>Client Relations</span><span>Reporting</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="timeline-item reveal-up" style="--delay:0.2s">
+          <div class="tl-left">
+            <div class="tl-period">Aug 2022 – Aug 2023</div>
+            <div class="tl-loc">Salem, TN</div>
+          </div>
+          <div class="tl-line">
+            <div class="tl-dot"></div>
+          </div>
+          <div class="tl-right">
+            <div class="tl-role">Technical Operations Trainee</div>
+            <div class="tl-company">VPG Sensor</div>
+            <ul class="tl-points">
+              <li>Supported process improvements using structured analytical and operational workflows.</li>
+              <li>Developed understanding of technical documentation, quality control, and manufacturing processes.</li>
+            </ul>
+            <div class="tl-tags">
+              <span>Operations</span><span>Technical Analysis</span><span>QC</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CERTIFICATIONS ===== -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">05 · Certifications</div>
+        <h2 class="section-title">Credentials</h2>
+        <p class="section-sub">Professional training and certifications in software development and data science.</p>
+      </div>
+      <div class="cert-grid">
+        <div class="cert-card reveal-up">
+          <div class="cert-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          </div>
+          <div class="cert-body">
+            <div class="cert-title">Java Full Stack Developer</div>
+            <div class="cert-issuer">Entri Elevate</div>
+            <div class="cert-meta">
+              <span class="cert-year">2023 – 2024</span>
+              <span class="cert-badge">Completed</span>
+            </div>
+            <div class="cert-skills">Covered: Java, Spring Boot, React, Node.js, MongoDB, MySQL, Git, REST APIs</div>
+          </div>
+        </div>
+        <div class="cert-card reveal-up" style="--delay:0.15s">
+          <div class="cert-icon-wrap">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3H5a2 2 0 00-2 2v4M9 3h6M9 3v18m0 0h6m-6 0H5a2 2 0 01-2-2V9m0 0h18M3 9l9-6 9 6m-9 0v12"/></svg>
+          </div>
+          <div class="cert-body">
+            <div class="cert-title">Data Scientist Intern</div>
+            <div class="cert-issuer">Shiash Info Solutions</div>
+            <div class="cert-meta">
+              <span class="cert-year">2024</span>
+              <span class="cert-badge">Completed</span>
+            </div>
+            <div class="cert-skills">Covered: Python, Pandas, NumPy, Scikit-learn, Data Visualization, ML Basics</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION -->
+      <div class="section-header reveal-up" style="margin-top:4rem">
+        <div class="section-tag">Education</div>
+      </div>
+      <div class="edu-card reveal-up">
+        <div class="edu-left">
+          <div class="edu-degree">B.Sc. in Computer Science <span class="edu-status">(or relevant degree)</span></div>
+          <div class="edu-school">University, Tamil Nadu</div>
+        </div>
+        <div class="edu-right">
+          <div class="edu-year">Graduated 2022</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="container">
+      <div class="section-header reveal-up">
+        <div class="section-tag">06 · Contact</div>
+        <h2 class="section-title">Let's Talk</h2>
+        <p class="section-sub">Open to full-time roles, internships, and freelance projects. Drop me a message.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal-up">
+          <p class="contact-blurb">I'm actively seeking <strong>Junior Java Full Stack Developer</strong>, <strong>Junior Software Engineer</strong>, or <strong>Junior Data Analyst</strong> opportunities at MNC companies and startups. Let's build something great.</p>
+          <div class="contact-items">
+            <a href="mailto:sivaranjaniofficial1@gmail.com" class="contact-item">
+              <div class="ci-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              </div>
+              <div class="ci-info">
+                <span class="ci-label">Email</span>
+                <span class="ci-val">sivaranjaniofficial1@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:6380888058" class="contact-item">
+              <div class="ci-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 10.8 19.79 19.79 0 01.12 2.18 2 2 0 012.11 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.46-.46a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 14.92z"/></svg>
+              </div>
+              <div class="ci-info">
+                <span class="ci-label">Phone</span>
+                <span class="ci-val">+91 6380 888 058</span>
+              </div>
+            </a>
+            <a href="https://linkedin.com/in/sivaranjani-t-195192228" target="_blank" class="contact-item">
+              <div class="ci-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+              </div>
+              <div class="ci-info">
+                <span class="ci-label">LinkedIn</span>
+                <span class="ci-val">sivaranjani-t-195192228</span>
+              </div>
+            </a>
+            <a href="https://github.com/sivaranjani-git" target="_blank" class="contact-item">
+              <div class="ci-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              </div>
+              <div class="ci-info">
+                <span class="ci-label">GitHub</span>
+                <span class="ci-val">sivaranjani-git</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal-up" style="--delay:0.2s">
+          <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="fname">Your Name</label>
+                <input type="text" id="fname" placeholder="Recruiter / HR Name" required />
+              </div>
+              <div class="form-group">
+                <label for="femail">Email Address</label>
+                <input type="email" id="femail" placeholder="hr@company.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="fsubject">Subject</label>
+              <input type="text" id="fsubject" placeholder="Junior Developer Opportunity at [Company]" />
+            </div>
+            <div class="form-group">
+              <label for="fmsg">Message</label>
+              <textarea id="fmsg" rows="5" placeholder="Tell me about the role and what you're looking for..."></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">
+              Send Message
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess">
+              ✓ Message sent! I'll get back to you within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-bracket">&lt;</span>ST<span class="logo-bracket">/&gt;</span>
+        <span>Sivaranjani Thambusamy</span>
+      </div>
+      <div class="footer-roles">
+        Java Full Stack Developer · Data Analyst · Software Engineer
+      </div>
+      <div class="footer-links">
+        <a href="https://linkedin.com/in/sivaranjani-t-195192228" target="_blank">LinkedIn</a>
+        <a href="https://github.com/sivaranjani-git" target="_blank">GitHub</a>
+        <a href="mailto:sivaranjaniofficial1@gmail.com">Email</a>
+      </div>
+      <div class="footer-copy">© 2025 Sivaranjani T · Erode / Salem, Tamil Nadu</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
