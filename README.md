@@ -30,6 +30,6 @@
 ---
 
 ## 📫 Contact
-📧 yourmail@gmail.com  
-🔗 LinkedIn: (add link)
+📧 sivaranjani16012001@gmail.com  
+🔗 LinkedIn: (https://www.linkedin.com/in/sivaranjani-t-195192228)
 
