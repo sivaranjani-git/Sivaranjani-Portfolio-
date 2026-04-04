@@ -1,4 +1,4 @@
-# Sivaranjani-Portfolio-
+# Sivaranjani-Portfolio
 # 👋 Hi, I'm Sivaranjani T
 
 💻 Java Full Stack Developer | 📊 Data Analyst
