@@ -1,0 +1,58 @@
+SIVARANJANI THANGAVEL
+Java Full Stack Developer (Fresher) | MERN Stack | Data Analytics
+📞 +91 63808 88058  |  ✉ sivaranjani16012001@gmail.com  |  📍 Erode, Tamil Nadu
+🔗 linkedin.com/in/sivaranjani-t-195192228  |  💻 github.com/sivaranjani-git
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROFESSIONAL SUMMARY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Fresher transitioning into IT with certified training in Java Full Stack Development (MERN Stack).
+Proficient in HTML5, CSS3, JavaScript, React.js, Node.js, Express.js, MongoDB, and Java.
+Holds an MBA in Business Analytics with 2+ years of domain experience in data-driven process management.
+Eager to contribute as an entry-level developer at a top-tier MNC.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TECHNICAL SKILLS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Frontend  : HTML5, CSS3, JavaScript (ES6+), Bootstrap 5, React.js
+Backend   : Java, Node.js, Express.js, REST API, Spring Boot, JWT Authentication
+Database  : MongoDB, Mongoose, MySQL, SQL
+Analytics : Python, NumPy, Pandas, Scikit-learn, Power BI, Tableau
+Tools     : Git, GitHub, VS Code, IntelliJ IDEA, Postman, Agile/Scrum
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PROJECTS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Music Streaming Application  |  MERN Stack  |  Jan - May 2024
+• Built full-stack music app with JWT authentication and playlist management.
+• Developed REST APIs using Node.js/Express.js with MongoDB data storage.
+• Implemented responsive UI with React.js and Bootstrap 5.
+
+Market Value Analysis Dashboard  |  Python, Power BI, Tableau  |  Aug - Oct 2024
+• Analyzed 10,000+ records; created dashboards reducing reporting time by 30%.
+• Built regression models using Scikit-learn achieving 85% forecast accuracy.
+• Delivered strategic insights to stakeholders via interactive visual reports.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CERTIFICATIONS & TRAINING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Java Full Stack Web Development — Entri Elevate  (May 2023 - May 2024)
+Data Scientist Internship — Shiash Info Solutions  (Aug - Nov 2024)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+WORK EXPERIENCE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+AR Executive — Global Healthcare Billing Partner Pvt. Ltd.  (May - Sep 2025)
+AR Specialist — Ventra Health  (May 2024 - May 2025)
+Technical Operations Trainee — VPG Sensors  (Aug 2022 - Aug 2023)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EDUCATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+M.B.A – Business Analytics                   2022 - 2025  |  Tamil Nadu, India
+B.E – Electrical & Electronics Engineering   2018 - 2022  |  Tamil Nadu, India
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+LANGUAGES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+English — Professional  |  Tamil — Native
